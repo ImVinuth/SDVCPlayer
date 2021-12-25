@@ -23,22 +23,22 @@ async def cbstart(_, query: CallbackQuery):
                         "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "How to use Me ❓ ", callback_data="cbhowtouse")
+                        "❓ How to use Me", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "Commands Help ❔", callback_data="cbcmds"
+                         "❔ Commands Help", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "Owner 🤴", url=f"https://t.me/Darkridersslk")
+                        "❤️ Owner", url=f"https://t.me/VinuthPmBot")
                 ],[
                     InlineKeyboardButton(
-                        "Support Group 👥", url=f"https://t.me/SDBOTz"
+                        "👥 Support Group", url=f"https://t.me/MusicUpdates_Chat"
                     ),
                     InlineKeyboardButton(
-                        "SDBOTs News 🙋‍♂️", url=f"https://t.me/SDBOTs_inifinity")
+                        "📣 Updates Channel", url=f"https://t.me/Vinuth_BOTs")
                 ],[
                     InlineKeyboardButton(
-                        "Source Code 💾", url="https://github.com/Sadew451/SDVCPlayer"
+                        "🙋‍♀ Entertainment Channel", url="https://github.com/Sadew451/SDVCPlayer"
                     )
                 ]
             ]
@@ -54,7 +54,7 @@ async def cbhelp(_, query: CallbackQuery):
 
 **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
 
-POWERD BY {BOT_NAME} A.I__""",
+POWERD BY {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -198,7 +198,7 @@ async def cbsudo(_, query: CallbackQuery):
 `/rmd` - `remove all downloaded files`
 `/clean` - `Remove all raw files`
 
-POWERD BY {BOT_NAME} A.I__""",
+POWERD BY {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
